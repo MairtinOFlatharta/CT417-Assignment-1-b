@@ -31,6 +31,8 @@ gradle-app.setting
 # Package Files #
 *.jar
 *.war
+# Add exception to allow Jenkins to build the project
+!gradle/wrapper/gradle-wrapper.jar
 *.nar
 *.ear
 *.zip
