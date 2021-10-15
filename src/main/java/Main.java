@@ -1,6 +1,9 @@
 import org.joda.time.DateTime;
 import java.util.ArrayList;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Main {
     public static void main(String[] args){
         // First, create a bunch of test objects
